@@ -1,0 +1,31 @@
+{
+  "ConsensusMethod": 4,
+  "PbftViewChangeTimeOut": 120000,
+  "ExpDataRootDir": "expTestAERO",
+  "Block_Interval": 1000,
+  "BlockSize": 1000,
+  "BlocksizeInBytes": 200000,
+  "UseBlocksizeInBytes": 0,
+  "InjectSpeed": 2000,
+  "TotalDataSize": 160000,
+  "TxBatchSize": 16000,
+  "BrokerNum": 0,
+  "RelayWithMerkleProof": 0,
+  "DatasetFile": "./selectedTxs_300K.csv",
+  "ReconfigTimeGap": 50,
+  "Delay": 0,
+  "JitterRange": 0,
+  "Bandwidth": 10000000,
+  "AERO": {
+    "Python": "python",
+    "Checkpoint": "aero/checkpoints/policy.pt",
+    "KeyDir": "aero/keys",
+    "PrefixDigits": 2,
+    "EpochBlocks": 100,
+    "MaxMoves": 32,
+    "HistoryWindow": 32,
+    "Seed": 1,
+    "TimeoutSeconds": 300,
+    "OnlineTraining": true
+  }
+}

@@ -1,0 +1,17 @@
+# 不要上传实验结果！
+# Do not upload your experimental results!
+expTest
+expTestAERO/
+
+# 不要上传可执行文件！
+# Do not upload your executable files!
+*.exe
+
+# Local build caches, Python environments, model artifacts and private node keys.
+tmp/
+__pycache__/
+*.pyc
+aero/keys/
+aero/checkpoints/
+.venv/
+
